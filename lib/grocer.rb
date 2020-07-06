@@ -1,12 +1,9 @@
 require 'pry'
 def find_item_by_name_in_collection(name, collection)
-  grocery_shelf = {}
-  collection.each { |key, value|
-    if name == collection[:value]
-      grocery_shelf.push(collection[:key][:value])
-      return grocery_shelf
-    end 
-  }
+  counter = 0 
+  while counter < collection.length 
+  counter += 1 
+
 end
 
 def consolidate_cart(cart)
